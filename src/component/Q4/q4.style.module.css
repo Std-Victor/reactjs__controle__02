@@ -1,0 +1,10 @@
+.year__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.year__container button{
+  padding: .5rem 1.8rem;
+  cursor: pointer;
+}

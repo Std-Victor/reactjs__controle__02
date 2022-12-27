@@ -1,0 +1,69 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+  height: calc(100vh - 10rem);
+}
+.action{
+  height: 20rem;
+  box-shadow: #63636333 0rem .2rem .8rem 0rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+.action img{
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+dialog{
+  margin: auto;
+  border: none;
+  border-radius: 1rem;
+}
+
+dialog::backdrop{
+  background: rgb(0 0 0 /.6);
+  cursor: pointer;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+form h3{
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+.form__field{
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+}
+.form__field:last-child{
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2rem 0;
+}
+.form__field:last-child input{
+  padding: .5rem 2.5rem;
+  cursor: pointer;
+}
+.form__field:last-child input:last-child[value="Add"]{
+  background-color: #13a813;
+  color: white;
+  border: 1px solid #13a813;
+  border-radius: 3px;
+}
+.form__field:last-child input:last-child[value="Update"]{
+  background-color: #2338f8;
+  color: white;
+  border: 1px solid #2338f8;
+  border-radius: 3px;
+}
